@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="c2f8cc9c-c9dd-445e-a38b-b9e4ef7c5348" Version="1.0.0.0" Publisher="CN=adamroderick" ProcessorArchitecture="neutral" />
+  <Properties>
+    <DisplayName>ContentFlowDemo</DisplayName>
+    <Description>ContentFlowDemo</Description>
+    <PublisherDisplayName>adamroderick</PublisherDisplayName>
+    <Logo>images\storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2</OSMinVersion>
+    <OSMaxVersionTested>6.2</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="en-US" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="default.html">
+      <VisualElements DisplayName="ContentFlowDemo" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="ContentFlowDemo" ForegroundText="light" BackgroundColor="#0084FF">
+        <DefaultTile ShowName="true" />
+        <SplashScreen Image="images\splashscreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
